@@ -62,20 +62,16 @@ cargo --version
 
 8. Run in development
 
-Start Next.js:
-
-```bash
-pnpm dev
-```
-
-Running the Next dev server will automatically run the following:
+Start Tauri:
 
 ```bash
 npx tauri dev
 ```
 
-Build desktop app:
+Running the Tauri dev server will automatically start the Next.js server via:
 
 ```bash
-npx tauri build
+pnpm run dev
 ```
+
+
